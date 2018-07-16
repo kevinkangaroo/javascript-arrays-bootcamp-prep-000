@@ -12,10 +12,10 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 
 function addElementToEndOfArray(array, element) {
   // No altering
-  return [..array, element]
+  return [...array, element]
 }
 
 function addElementToEndOfArray(array, element) {
   // Alters
-  return 
+  return array.push(element)
 }
